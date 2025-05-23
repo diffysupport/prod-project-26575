@@ -1,0 +1,52 @@
+basic:
+    name: 'https://crisis.solari-inc.org/'
+    environments:
+        production: 'https://crisis.solari-inc.org/'
+        staging: 'https://yser5r4qum.wpdns.site/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /get-help/crisis-line
+        - /get-help
+        - /get-help/warm-line
+        - /get-help/dispatch-and-reporting-services
+        - /get-help/all-services
+        - /learn
+        - /learn/mental-health-facts
+        - /learn/community-events
+        - /learn/faqs
+        - /stories-of-hope-overview
+        - /about
+        - /about/who-we-are
+        - /about/our-impact
+        - /about/community-involvement
+        - /contact
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
